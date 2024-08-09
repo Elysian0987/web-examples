@@ -11,22 +11,22 @@ export default function Home() {
       <header className="w-full py-4 flex justify-between items-center">
         <div className="flex items-center">
           <img src="/walletconnect.png" alt="logo" className="w-10 h-10 mr-2" />
-          <div className="hidden sm:inline text-xl font-bold">WalletConnect AppKit example app</div>
+          {/* <div className="hidden sm:inline text-xl font-bold">WalletConnect AppKit example app</div> */}
         </div>
         <div className="flex items-center">
           <w3m-button />
         </div>
       </header>
-      <h2 className="my-8 text-2xl font-bold leading-snug text-center">Examples</h2>
+      {/* <h2 className="my-8 text-2xl font-bold leading-snug text-center">Examples</h2> */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl w-full">
-        <div className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
+        {/* <div className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
           <h3 className="text-sm font-semibold bg-gray-100 p-2">Connect button medium</h3>
           <div className="text-xs bg-gray-50 p-2 font-mono overflow-x-auto">{'<w3m-button size="md" />'}</div>
           <div className="flex justify-center items-center p-4">
             <w3m-button size="md" />
           </div>
-        </div>
-        <div className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
+        </div> */}
+        {/* <div className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
           <h3 className="text-sm font-semibold bg-gray-100 p-2">Connect button small</h3>
           <div className="text-xs bg-gray-50 p-2 font-mono overflow-x-auto">
             {'<w3m-button size="sm" label="Connect, pretty please!" />'}
@@ -34,9 +34,9 @@ export default function Home() {
           <div className="flex justify-center items-center p-4">
             <w3m-button size="sm" label="Connect, pretty please!" />
           </div>
-        </div>
+        </div> */}
 
-        {isConnected && (
+        {/* {isConnected && (
           <>
             {" "}
             <div className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
@@ -58,9 +58,9 @@ export default function Home() {
               </div>
             </div>
           </>
-        )}
+        )} */}
 
-        {!isConnected && (
+        {/* {!isConnected && (
           <div className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
             <h3 className="text-sm font-semibold bg-gray-100 p-2">Connect button (only when not connected)</h3>
             <div className="text-xs bg-gray-50 p-2 font-mono overflow-x-auto">{"<w3m-connect-button />"}</div>
@@ -68,9 +68,9 @@ export default function Home() {
               <w3m-connect-button />
             </div>
           </div>
-        )}
+        )} */}
 
-        {isConnected && (
+        {/* {isConnected && (
           <div className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
             <h3 className="text-sm font-semibold bg-gray-100 p-2">Network selection button</h3>
             <div className="text-xs bg-gray-50 p-2 font-mono overflow-x-auto">{"<w3m-network-button />"}</div>
@@ -78,19 +78,19 @@ export default function Home() {
               <w3m-network-button />
             </div>
           </div>
-        )}
+        )} */}
 
-        <div className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
+        {/* <div className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
           <h3 className="text-sm font-semibold bg-gray-100 p-2">Custom button</h3>
           <div className="text-xs bg-gray-50 p-2 font-mono overflow-x-auto">{"Check: components/CustomButton.tsx"}</div>
           <div className="flex justify-center items-center p-4">
             <CustomButton />
           </div>
-        </div>
+        </div> */}
       </div>
-      <h2 className="my-8 text-2xl font-bold leading-snug text-center">Docs</h2>
+      {/* <h2 className="my-8 text-2xl font-bold leading-snug text-center">Docs</h2> */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl w-full">
-        <a
+        {/* <a
           href="https://docs.walletconnect.com/appkit/overview"
           className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
         >
@@ -112,8 +112,8 @@ export default function Home() {
               Accounts, one-click auth, and more...
             </p>
           </div>
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href="https://docs.walletconnect.com/"
           className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
         >
@@ -135,7 +135,7 @@ export default function Home() {
               wallet.)
             </p>
           </div>
-        </a>
+        </a> */}
       </div>
     </main>
   );
